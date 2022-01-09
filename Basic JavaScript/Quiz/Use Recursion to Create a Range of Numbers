@@ -1,0 +1,11 @@
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum > endNum) {
+    return [];
+  } else {
+      const arr = []
+      const foo = startNum++;
+      arr.push(foo);
+      return arr;
+  }
+  
+};
